@@ -1,0 +1,324 @@
+﻿Log file open, 03/05/17 02:45:35
+LogInit:Display: Running engine for game: Clean
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-120124237) SRandInit(-120124237).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.101407
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.05-02.45.37:523][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.03.05-02.45.37:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-02.45.37:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.05-02.45.37:545][  0]LogInit: Computer: DEREK-PC
+[2017.03.05-02.45.37:545][  0]LogInit: User: Derek
+[2017.03.05-02.45.37:545][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.05-02.45.37:545][  0]LogInit: High frequency timer resolution =2.873556 MHz
+[2017.03.05-02.45.37:545][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.05-02.45.37:545][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-02.45.37:545][  0]LogMemory: Process Physical Memory: 268.02 MB used, 268.02 MB peak
+[2017.03.05-02.45.37:545][  0]LogMemory: Process Virtual Memory: 265.66 MB used, 265.66 MB peak
+[2017.03.05-02.45.37:545][  0]LogMemory: Physical Memory: 4933.58 MB used,  3217.53 MB free, 8151.11 MB total
+[2017.03.05-02.45.37:545][  0]LogMemory: Virtual Memory: 684.24 MB used,  3217.53 MB free, 134217728.00 MB total
+[2017.03.05-02.45.37:706][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.05-02.45.38:560][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.05-02.45.38:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.05-02.45.38:600][  0]LogD3D11RHI:       4059/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.05-02.45.38:605][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.05-02.45.38:605][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.05-02.45.38:605][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.05-02.45.38:610][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.05-02.45.38:610][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.05-02.45.38:610][  0]LogWindows: EnumDisplayDevices:
+[2017.03.05-02.45.38:610][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.05-02.45.38:611][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.05-02.45.38:611][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.05-02.45.38:611][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.05-02.45.38:611][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.05-02.45.38:611][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.05-02.45.38:611][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.05-02.45.38:611][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.05-02.45.38:611][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.05-02.45.38:632][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.05-02.45.38:645][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.05-02.45.38:743][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/Derek/Documents/Clean/Intermediate/Shaders/WorkingDirectory/6344/).
+[2017.03.05-02.45.38:743][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Derek/AppData/Local/Temp/UnrealShaderWorkingDir/2E1BB31B421E0DE0F459F6AC4F667B4B/'.
+[2017.03.05-02.45.38:743][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.05-02.45.40:298][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.05-02.45.40:388][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.05-02.45.40:475][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.05-02.45.40:569][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.05-02.45.40:660][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.05-02.45.40:751][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.05-02.45.40:841][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.05-02.45.40:931][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.05-02.45.41:005][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.05-02.45.41:093][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.05-02.45.41:182][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.05-02.45.41:268][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.05-02.45.41:354][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.05-02.45.41:443][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.05-02.45.41:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.05-02.45.41:713][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.05-02.45.41:713][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.05-02.45.41:776][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.05-02.45.41:924][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.05-02.45.41:983][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.05-02.45.42:074][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.05-02.45.42:164][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.05-02.45.42:252][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.05-02.45.42:342][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.05-02.45.42:342][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.05-02.45.43:166][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache: Loaded boot cache 0.09s 51MB C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Derek/Documents/Clean/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Derek/Documents/Clean/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.05-02.45.43:258][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.05-02.45.43:287][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.05-02.45.43:300][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Derek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.05-02.45.43:312][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.05-02.45.43:312][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-02.45.43:312][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-02.45.43:723][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-02.45.43:725][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.05-02.45.44:044][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.05-02.45.44:116][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.05-02.45.44:192][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.05-02.45.44:192][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.05-02.45.44:192][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.05-02.45.44:957][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: clean, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1032071074
+[2017.03.05-02.45.45:018][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.03.05-02.45.45:096][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.042415 seconds
+[2017.03.05-02.45.45:102][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.05-02.45.45:103][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.05-02.45.45:103][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.05-02.45.45:207][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.05-02.45.47:716][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.05-02.45.47:777][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.05-02.45.48:483][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.05-02.45.49:086][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.45.49:087][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.45.49:163][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.45.49:243][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.45.51:279][  0]LogEngine: Initializing Engine...
+[2017.03.05-02.45.51:317][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-D24F669D
+[2017.03.05-02.45.51:672][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.05-02.45.51:699][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.45.51:715][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-02.45.51:767][  0]LogDerivedDataCache: Saved boot cache 0.05s 51MB C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-02.45.51:781][  0]LogInit: Texture streaming: Enabled
+[2017.03.05-02.45.51:940][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.05-02.45.52:086][  0]LogInit: Transaction tracking system initialized
+[2017.03.05-02.45.52:652][  0]BlueprintLog: New page: Editor Load
+[2017.03.05-02.45.54:098][  0]LocalizationService: Info Localization service is disabled
+[2017.03.05-02.45.55:452][  0]LogConsoleResponse:Display: 
+[2017.03.05-02.45.55:630][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.05-02.45.55:630][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.05-02.45.56:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/' took 0.02s
+[2017.03.05-02.45.57:358][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.45.57:358][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-02.45.57:358][  0]LightingResults: New page: Lighting Build
+[2017.03.05-02.45.57:420][  0]MapCheck: New page: Map Check
+[2017.03.05-02.45.57:420][  0]LightingResults: New page: Lighting Build
+[2017.03.05-02.46.01:676][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.46.01:700][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-02.46.01:702][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-02.46.01:792][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.922ms to complete.
+[2017.03.05-02.46.01:792][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 4.434
+[2017.03.05-02.46.01:856][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-02.46.02:031][  0]LogCollectionManager: Loaded 0 collections in 0.002122 seconds
+[2017.03.05-02.46.02:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Saved/Collections/' took 0.01s
+[2017.03.05-02.46.02:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/Developers/Derek/Collections/' took 0.01s
+[2017.03.05-02.46.02:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/Collections/' took 0.01s
+[2017.03.05-02.46.02:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.05-02.46.02:150][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2244 classes and 450 folders.
+[2017.03.05-02.46.02:155][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.05-02.46.02:155][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.05-02.46.02:254][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.05-02.46.02:312][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.05-02.46.02:380][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.05-02.46.02:532][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.05-02.46.02:551][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.46.02:639][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.05-02.46.02:640][  0]LogLoad: (Engine Initialization) Total time: 28.52 seconds
+[2017.03.05-02.46.02:640][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.61 seconds
+[2017.03.05-02.46.02:640][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.05-02.46.02:649][  0]LogOcInput: OculusInput pre-init called
+[2017.03.05-02.46.02:663][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.12.0
+[2017.03.05-02.46.02:664][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.03.05-02.46.02:664][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.03.05-02.46.02:664][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.03.05-02.46.02:687][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.05-02.46.02:689][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-02.46.02:694][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.05-02.46.02:701][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.05-02.46.02:707][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.03.05-02.46.02:902][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.46.02:965][  0]LogRenderer: Reallocating scene render targets to support 772x432 NumSamples 1 (Frame:2).
+[2017.03.05-02.46.03:136][  2]LogAssetRegistry: Asset discovery search completed in 18.1405 seconds
+[2017.03.05-02.46.03:136][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.03.05-02.46.03:137][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000177 seconds (updated 0 objects)
+[2017.03.05-02.46.03:688][ 44]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.46.06:583][328]LogEditorViewport: Clicking on Actor (LMB): BP_Interact_Object_C (BP_Interact_Object2)
+[2017.03.05-02.46.13:714][850]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.46.14:345][850]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-02.46.14:504][850]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.03.05-02.46.15:660][850]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.05-02.46.16:163][851]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.05-02.46.33:209][653]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.46.34:280][680]LogSavePackage: Save=110.37ms
+[2017.03.05-02.46.34:280][680]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object4ED27DBC4AA6A0E0C0BF55B4013CA284.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.46.34:285][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.46.39:040][977]LogSavePackage: Save=192.50ms
+[2017.03.05-02.46.39:040][977]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap33BB727E4437119FF2A2DDA461FEE31A.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.03.05-02.46.39:043][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.03.05-02.46.39:379][977]LogSavePackage: Save=172.49ms
+[2017.03.05-02.46.39:379][977]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap_BuiltData2352A1604867B731A2A918B40BCF1262.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.03.05-02.46.39:381][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.03.05-02.46.39:939][ 17]LogTemp: Repeting last play command: VR Preview
+[2017.03.05-02.46.39:962][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.46.39:963][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-02.46.39:963][ 17]PIE: New page: PIE session: MotionControllerMap (Mar 5, 2017, 2:46:39 AM)
+[2017.03.05-02.46.39:964][ 17]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.05-02.46.39:975][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011376s)
+[2017.03.05-02.46.39:976][ 17]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.46.39:976][ 17]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2017.03.05-02.46.39:976][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013014s)
+[2017.03.05-02.46.40:014][ 17]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.46.40:024][ 17]LogInit: FAudioDevice initialized.
+[2017.03.05-02.46.40:130][ 17]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.46.40:130][ 17]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-02.46.40:135][ 17]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.05-02.46.40
+[2017.03.05-02.46.40:136][ 17]LogWorld: Bringing up level for play took: 0.004077
+[2017.03.05-02.46.40:204][ 17]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.05-02.46.40:210][ 17]LogBlueprintUserMessages: [Item1_Key_Red] *TurnOn LightHello
+[2017.03.05-02.46.40:211][ 17]LogBlueprintUserMessages: [Item1_Key_Blue] *TurnOn LightHello
+[2017.03.05-02.46.40:211][ 17]LogBlueprintUserMessages: [Item1_Key_Green] *TurnOn LightHello
+[2017.03.05-02.46.40:211][ 17]LogBlueprintUserMessages: [Item1_Key_Yellow] *TurnOn LightHello
+[2017.03.05-02.46.40:219][ 17]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.063
+[2017.03.05-02.46.40:220][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.46.40:222][ 17]LogBlueprintUserMessages: [BP_FinalCase_457] *I'm NOT Grabbed
+[2017.03.05-02.46.40:274][ 18]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1924).
+[2017.03.05-02.46.50:097][893]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.46.50:097][893]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.46.50:878][963]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.46.51:537][ 22]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.46.52:332][ 93]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.46.53:325][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.46.53:326][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.46.53:326][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.46.53:326][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.46.53:327][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.46.53:327][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.46.53:327][182]PIE:Warning: Warning AttachTo: '/Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.BP_Interact_Object2_470.DefaultSceneRoot' cannot be attached to itself. Aborting.
+[2017.03.05-02.46.53:327][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.46.53:327][182]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.46.53:327][182]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.46.54:531][290]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.46.55:525][379]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.46.55:525][379]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.46.57:391][546]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.46.57:391][546]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.46.58:006][601]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.46.59:000][690]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.46.59:000][690]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.46.59:424][728]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.00:418][817]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.00:418][817]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.00:742][846]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.00:742][846]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.01:279][894]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.02:273][983]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.02:273][983]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.02:998][ 48]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.02:999][ 48]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.03:881][123]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.03:881][123]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.04:875][211]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.04:875][211]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.05:390][257]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.05:390][257]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Desk_Left_Handed_4
+[2017.03.05-02.47.05:892][302]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.06:886][391]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.06:886][391]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.07:266][425]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.07:266][425]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.07:791][472]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.08:785][561]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.08:785][561]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.09:176][596]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.10:170][685]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.10:170][685]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.10:427][708]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.47.10:427][708]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.47.10:952][755]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.47.11:947][844]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.47.11:947][844]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.47.24:218][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.47.24:422][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.47.26:537][ 68]LogSavePackage: Save=190.79ms
+[2017.03.05-02.47.26:537][ 68]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap76C7C5FA495EEA3677896CA2B84C42FA.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.03.05-02.47.26:539][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.03.05-02.47.26:717][ 68]LogSavePackage: Save=127.33ms
+[2017.03.05-02.47.26:717][ 68]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap_BuiltDataCDB90300472212E308487F98F6787131.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.03.05-02.47.26:719][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.03.05-02.49.29:456][689]LogSavePackage: Save=90.58ms
+[2017.03.05-02.49.29:456][689]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object5AF881F64917548B1DFA1096186161EF.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.49.29:459][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.50.28:055][139]LogEditorViewport: Clicking on Actor (LMB): Item1_Key_C (Item1_Key_Green)
+[2017.03.05-02.51.25:809][274]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-02.51.26:110][275]Cmd: QUIT_EDITOR
+[2017.03.05-02.51.27:442][275]LogExit: Preparing to exit.
+[2017.03.05-02.51.28:639][275]LogDirectoryWatcher: A directory notification for 'C:/Users/Derek/Documents/Clean/Content/' was aborted.
+[2017.03.05-02.51.29:094][275]LogExit: Editor shut down
+[2017.03.05-02.51.29:095][275]LogExit: Transaction tracking system shut down
+[2017.03.05-02.51.32:224][275]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.05-02.51.32:224][275]LogExit: Object subsystem successfully closed.
+[2017.03.05-02.51.33:355][275]LogD3D11RHI: Shutdown
+[2017.03.05-02.51.33:355][275]LogD3D11RHI: CleanupD3DDevice
+[2017.03.05-02.51.33:467][275]LogD3D11RHI: ~FD3D11DynamicRHI

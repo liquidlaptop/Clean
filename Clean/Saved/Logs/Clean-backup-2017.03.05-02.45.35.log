@@ -1,0 +1,742 @@
+﻿Log file open, 03/05/17 02:32:07
+LogInit:Display: Running engine for game: Clean
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1852214695) SRandInit(1852214695).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096779
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.05-02.32.09:473][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.03.05-02.32.09:478][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-02.32.09:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.05-02.32.09:546][  0]LogInit: Computer: DEREK-PC
+[2017.03.05-02.32.09:546][  0]LogInit: User: Derek
+[2017.03.05-02.32.09:546][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.05-02.32.09:546][  0]LogInit: High frequency timer resolution =2.873556 MHz
+[2017.03.05-02.32.09:546][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.05-02.32.09:546][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-02.32.09:546][  0]LogMemory: Process Physical Memory: 267.77 MB used, 267.77 MB peak
+[2017.03.05-02.32.09:546][  0]LogMemory: Process Virtual Memory: 265.55 MB used, 265.55 MB peak
+[2017.03.05-02.32.09:546][  0]LogMemory: Physical Memory: 4238.18 MB used,  3912.93 MB free, 8151.11 MB total
+[2017.03.05-02.32.09:546][  0]LogMemory: Virtual Memory: 684.24 MB used,  3912.93 MB free, 134217728.00 MB total
+[2017.03.05-02.32.09:707][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.05-02.32.10:529][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.05-02.32.10:566][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.05-02.32.10:566][  0]LogD3D11RHI:       4059/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.05-02.32.10:569][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.05-02.32.10:569][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.05-02.32.10:569][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.05-02.32.10:574][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.05-02.32.10:574][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.05-02.32.10:574][  0]LogWindows: EnumDisplayDevices:
+[2017.03.05-02.32.10:574][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.05-02.32.10:574][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.05-02.32.10:575][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.05-02.32.10:575][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.05-02.32.10:575][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.05-02.32.10:575][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.05-02.32.10:575][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.05-02.32.10:575][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.05-02.32.10:575][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.05-02.32.10:596][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.05-02.32.10:609][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.05-02.32.10:708][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/Derek/Documents/Clean/Intermediate/Shaders/WorkingDirectory/4368/).
+[2017.03.05-02.32.10:708][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Derek/AppData/Local/Temp/UnrealShaderWorkingDir/ECEBB9914E4DB80DC9A4FE9C64B95211/'.
+[2017.03.05-02.32.10:708][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.05-02.32.12:445][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.05-02.32.12:534][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.05-02.32.12:623][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.05-02.32.12:712][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.05-02.32.12:801][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.05-02.32.12:889][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.05-02.32.12:978][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.05-02.32.13:067][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.05-02.32.13:138][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.05-02.32.13:228][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.05-02.32.13:313][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.05-02.32.13:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.05-02.32.13:487][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.05-02.32.13:576][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.05-02.32.13:668][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.05-02.32.13:851][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.05-02.32.13:851][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.05-02.32.13:914][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.05-02.32.14:062][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.05-02.32.14:119][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.05-02.32.14:206][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.05-02.32.14:292][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.05-02.32.14:378][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.05-02.32.14:463][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.05-02.32.14:463][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.05-02.32.15:221][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache: Loaded boot cache 0.07s 51MB C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Derek/Documents/Clean/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Derek/Documents/Clean/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.05-02.32.15:295][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.05-02.32.15:320][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.05-02.32.15:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Derek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.05-02.32.15:344][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.05-02.32.15:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-02.32.15:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-02.32.15:716][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-02.32.15:720][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.05-02.32.16:036][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.05-02.32.16:109][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.05-02.32.16:186][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.05-02.32.16:186][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.05-02.32.16:186][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.05-02.32.16:941][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: clean, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1032071074
+[2017.03.05-02.32.17:002][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.03.05-02.32.17:102][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.062687 seconds
+[2017.03.05-02.32.17:109][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.05-02.32.17:109][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.05-02.32.17:109][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.05-02.32.17:210][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.05-02.32.19:654][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.05-02.32.19:716][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.05-02.32.20:428][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.05-02.32.21:016][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.32.21:017][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.32.21:092][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.32.21:171][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.32.23:194][  0]LogEngine: Initializing Engine...
+[2017.03.05-02.32.23:226][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-D24F669D
+[2017.03.05-02.32.23:573][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.05-02.32.23:602][  0]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.32.23:618][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-02.32.23:652][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/Derek/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-02.32.23:666][  0]LogInit: Texture streaming: Enabled
+[2017.03.05-02.32.23:826][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.05-02.32.23:965][  0]LogInit: Transaction tracking system initialized
+[2017.03.05-02.32.24:528][  0]BlueprintLog: New page: Editor Load
+[2017.03.05-02.32.25:979][  0]LocalizationService: Info Localization service is disabled
+[2017.03.05-02.32.27:328][  0]LogConsoleResponse:Display: 
+[2017.03.05-02.32.27:521][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.05-02.32.27:521][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.05-02.32.28:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/' took 0.04s
+[2017.03.05-02.32.29:219][  0]SourceControl: Info Source control is disabled
+[2017.03.05-02.32.29:220][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-02.32.29:220][  0]LightingResults: New page: Lighting Build
+[2017.03.05-02.32.29:283][  0]MapCheck: New page: Map Check
+[2017.03.05-02.32.29:283][  0]LightingResults: New page: Lighting Build
+[2017.03.05-02.32.32:986][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.32.33:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-02.32.33:009][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-02.32.33:099][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.921ms to complete.
+[2017.03.05-02.32.33:099][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 3.879
+[2017.03.05-02.32.33:161][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-02.32.33:339][  0]LogCollectionManager: Loaded 0 collections in 0.002553 seconds
+[2017.03.05-02.32.33:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Saved/Collections/' took 0.01s
+[2017.03.05-02.32.33:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/Developers/Derek/Collections/' took 0.01s
+[2017.03.05-02.32.33:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Derek/Documents/Clean/Content/Collections/' took 0.01s
+[2017.03.05-02.32.33:446][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.05-02.32.33:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2244 classes and 450 folders.
+[2017.03.05-02.32.33:463][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.05-02.32.33:463][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.05-02.32.33:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.05-02.32.33:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.05-02.32.33:689][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.05-02.32.33:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.05-02.32.33:841][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.32.33:930][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.05-02.32.33:930][  0]LogLoad: (Engine Initialization) Total time: 28.08 seconds
+[2017.03.05-02.32.33:930][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.03.05-02.32.33:930][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.05-02.32.33:939][  0]LogOcInput: OculusInput pre-init called
+[2017.03.05-02.32.33:953][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.12.0
+[2017.03.05-02.32.33:953][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.03.05-02.32.33:953][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.03.05-02.32.33:953][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
+[2017.03.05-02.32.33:977][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.05-02.32.33:978][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-02.32.33:983][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.05-02.32.33:990][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.05-02.32.34:149][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.32.34:249][  2]LogRenderer: Reallocating scene render targets to support 560x328 NumSamples 1 (Frame:2).
+[2017.03.05-02.32.34:286][  2]LogAssetRegistry: Asset discovery search completed in 17.3051 seconds
+[2017.03.05-02.32.34:286][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.03.05-02.32.34:286][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.03.05-02.32.34:965][ 66]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.32.39:175][479]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-02.32.39:930][479]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.03.05-02.32.42:011][479]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.05-02.32.42:512][479]LogRenderer: Reallocating scene render targets to support 764x712 NumSamples 1 (Frame:317).
+[2017.03.05-02.32.42:538][480]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.05-02.32.48:416][752]LogRenderer: Reallocating scene render targets to support 924x712 NumSamples 1 (Frame:592).
+[2017.03.05-02.33.12:100][598]LogSavePackage: Save=97.41ms
+[2017.03.05-02.33.12:100][598]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_ObjectD9BDF34F4789C36E4CF8D5B05ADF9053.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.33.12:102][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.33.51:503][397]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.34.33:516][128]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.34.34:541][191]LogSavePackage: Save=97.22ms
+[2017.03.05-02.34.34:541][191]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object8A1FBB654C2DF3D09A084D817F65E01C.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.34.34:545][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.35.07:862][934]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.35.07:932][934]LogBlueprint:Error: [Compiler BP_Interact_Object] Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.03.05-02.35.07:934][934]LogBlueprint:Error: [Compiler BP_Interact_Object] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.05-02.35.08:183][934]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.03.05-02.35.08:183][934]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.05-02.35.08:183][934]LogBlueprint:Warning: [Compiler BP_Interact_Object] Warning [0182.33] Compile of BP_Interact_Object failed. 2 Fatal Issue(s) 0 Warning(s) [in 320 ms] (/Game/Assets_Dereks/DL_Blueprints/BP_Interact_Object.BP_Interact_Object)
+[2017.03.05-02.35.08:739][967]LogSavePackage: Save=91.69ms
+[2017.03.05-02.35.08:739][967]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object836A320842DB1ACAC3E5CF93D829B0A8.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.35.08:742][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.35.16:759][640]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.35.17:610][685]LogSavePackage: Save=96.58ms
+[2017.03.05-02.35.17:610][685]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object0463236F44AA6FEDACBF3CB50D38176A.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.35.17:613][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.35.19:806][879]LogSavePackage: Save=195.10ms
+[2017.03.05-02.35.19:806][879]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap62F59AB3468D5D265C406EBC729A608D.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.03.05-02.35.19:809][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.03.05-02.35.20:027][879]LogSavePackage: Save=161.85ms
+[2017.03.05-02.35.20:027][879]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap_BuiltData8849A51D4A486A0B9FF1B3AAB3968093.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.03.05-02.35.20:029][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.03.05-02.35.25:311][412]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.03.05-02.35.29:239][792]LogTemp: Repeting last play command: VR Preview
+[2017.03.05-02.35.29:262][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.35.29:262][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-02.35.29:262][792]PIE: New page: PIE session: MotionControllerMap (Mar 5, 2017, 2:35:29 AM)
+[2017.03.05-02.35.29:263][792]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.05-02.35.29:273][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010269s)
+[2017.03.05-02.35.29:274][792]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.35.29:274][792]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.03.05-02.35.29:274][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.011477s)
+[2017.03.05-02.35.29:309][792]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.35.29:320][792]LogInit: FAudioDevice initialized.
+[2017.03.05-02.35.29:422][792]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.35.29:422][792]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-02.35.29:427][792]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.05-02.35.29
+[2017.03.05-02.35.29:427][792]LogWorld: Bringing up level for play took: 0.003716
+[2017.03.05-02.35.29:495][792]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.03.05-02.35.29:500][792]LogBlueprintUserMessages: [Item1_Key_Red] *TurnOn LightHello
+[2017.03.05-02.35.29:500][792]LogBlueprintUserMessages: [Item1_Key_Blue] *TurnOn LightHello
+[2017.03.05-02.35.29:500][792]LogBlueprintUserMessages: [Item1_Key_Green] *TurnOn LightHello
+[2017.03.05-02.35.29:500][792]LogBlueprintUserMessages: [Item1_Key_Yellow] *TurnOn LightHello
+[2017.03.05-02.35.29:507][792]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.649
+[2017.03.05-02.35.29:508][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.35.29:509][792]LogBlueprintUserMessages: [BP_FinalCase_457] *I'm NOT Grabbed
+[2017.03.05-02.35.29:567][793]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:12843).
+[2017.03.05-02.35.47:014][334]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.35.48:600][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.35.49:594][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.35.49:594][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.35.49:594][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.35.49:594][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.49:595][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.35.49:595][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.49:595][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.49:595][565]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.35.49:595][565]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.50:276][626]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.35.51:270][715]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.35.51:270][715]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.35.52:287][806]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.35.53:281][895]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.53:595][923]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.35.54:588][ 12]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.54:923][ 42]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.35.54:923][ 42]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Desk_Right_handed_2
+[2017.03.05-02.35.55:594][102]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.35.56:587][191]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.35.56:588][191]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.35.57:068][234]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.35.57:828][302]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.35.58:062][323]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.35.58:062][323]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.35.58:822][391]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.36.08:921][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.36.09:123][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.36.45:956][653]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.36.46:795][676]LogSavePackage: Save=94.33ms
+[2017.03.05-02.36.46:795][676]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_ObjectDA24656F49B06D0FD81948904D548ADF.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.36.46:798][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.37.06:977][574]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.37.08:251][629]LogSavePackage: Save=97.76ms
+[2017.03.05-02.37.08:251][629]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object294FAEA2422492515D08E1BC1D3D76B7.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.37.08:253][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.38.10:217][176]LogEditorViewport: Clicking on Actor (LMB): BP_Interact_Object_C (BP_Interact_Object2)
+[2017.03.05-02.39.44:742][193]BlueprintLog: New page: Compile BP_Interact_Object
+[2017.03.05-02.39.46:158][285]LogSavePackage: Save=100.00ms
+[2017.03.05-02.39.46:158][285]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/BP_Interact_Object04782AB94B212DD3781612A364968F11.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset'
+[2017.03.05-02.39.46:161][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Dereks/DL_Blueprints/BP_Interact_Object.uasset
+[2017.03.05-02.39.53:391][943]LogSavePackage: Save=195.82ms
+[2017.03.05-02.39.53:391][943]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMapA7A44BFB4B851D6231E0C395C07C4C70.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.03.05-02.39.53:394][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.03.05-02.39.53:601][943]LogSavePackage: Save=127.12ms
+[2017.03.05-02.39.53:601][943]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/MotionControllerMap_BuiltDataC643F8E7403FBE0249CFFA9DC9562163.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.03.05-02.39.53:603][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.03.05-02.39.54:876][ 39]LogTemp: Repeting last play command: VR Preview
+[2017.03.05-02.39.54:896][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.39.54:897][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-02.39.54:897][ 39]PIE: New page: PIE session: MotionControllerMap (Mar 5, 2017, 2:39:54 AM)
+[2017.03.05-02.39.54:897][ 39]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.05-02.39.54:907][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009776s)
+[2017.03.05-02.39.54:908][ 39]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.39.54:909][ 39]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2017.03.05-02.39.54:909][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.011804s)
+[2017.03.05-02.39.54:945][ 39]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.39.54:955][ 39]LogInit: FAudioDevice initialized.
+[2017.03.05-02.39.55:046][ 39]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.39.55:046][ 39]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-02.39.55:051][ 39]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.05-02.39.55
+[2017.03.05-02.39.55:052][ 39]LogWorld: Bringing up level for play took: 0.004116
+[2017.03.05-02.39.55:056][ 39]LogBlueprintUserMessages: [Item1_Key_Red] *TurnOn LightHello
+[2017.03.05-02.39.55:057][ 39]LogBlueprintUserMessages: [Item1_Key_Blue] *TurnOn LightHello
+[2017.03.05-02.39.55:057][ 39]LogBlueprintUserMessages: [Item1_Key_Green] *TurnOn LightHello
+[2017.03.05-02.39.55:057][ 39]LogBlueprintUserMessages: [Item1_Key_Yellow] *TurnOn LightHello
+[2017.03.05-02.39.55:067][ 39]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.911
+[2017.03.05-02.39.55:067][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.39.55:069][ 39]LogBlueprintUserMessages: [BP_FinalCase_457] *I'm NOT Grabbed
+[2017.03.05-02.40.08:443][229]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.40.09:015][280]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.40.09:451][319]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.40.10:211][387]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.40.11:205][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.40.11:205][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.40.11:206][476]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.40.11:207][476]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.40.11:861][535]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.40.12:855][624]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.40.12:855][624]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.40.13:223][657]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.40.14:221][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.40.14:222][746]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.40.18:721][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.40.18:912][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.40.23:504][500]LogEditorViewport: Clicking on Actor (LMB): BP_Interact_Object_C (BP_Interact_Object)
+[2017.03.05-02.40.55:357][198]LogSavePackage: Save=13.68ms
+[2017.03.05-02.40.55:357][198]LogSavePackage: Moving '../../../../../../Users/Derek/Documents/Clean/Saved/Safe_Door_Wheel8799F347449D415B0D9CBC8DEEA17B9C.tmp' to '../../../../../../Users/Derek/Documents/Clean/Content/Assets_Mikes/Safe/Attachments/Safe_Door_Wheel.uasset'
+[2017.03.05-02.40.55:360][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Derek/Documents/Clean/Content/Assets_Mikes/Safe/Attachments/Safe_Door_Wheel.uasset
+[2017.03.05-02.41.03:288][897]LogTemp: Repeting last play command: VR Preview
+[2017.03.05-02.41.03:307][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.41.03:308][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.05-02.41.03:308][897]PIE: New page: PIE session: MotionControllerMap (Mar 5, 2017, 2:41:03 AM)
+[2017.03.05-02.41.03:309][897]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.03.05-02.41.03:318][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009636s)
+[2017.03.05-02.41.03:319][897]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.03.05-02.41.03:319][897]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.03.05-02.41.03:320][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.011533s)
+[2017.03.05-02.41.03:361][897]LogInit: XAudio2 using 'HTC-VIVE-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.05-02.41.03:373][897]LogInit: FAudioDevice initialized.
+[2017.03.05-02.41.03:464][897]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-02.41.03:464][897]LogLoad: Game class is 'GameModeBase'
+[2017.03.05-02.41.03:468][897]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.03.05-02.41.03
+[2017.03.05-02.41.03:469][897]LogWorld: Bringing up level for play took: 0.003843
+[2017.03.05-02.41.03:474][897]LogBlueprintUserMessages: [Item1_Key_Red] *TurnOn LightHello
+[2017.03.05-02.41.03:474][897]LogBlueprintUserMessages: [Item1_Key_Blue] *TurnOn LightHello
+[2017.03.05-02.41.03:474][897]LogBlueprintUserMessages: [Item1_Key_Green] *TurnOn LightHello
+[2017.03.05-02.41.03:474][897]LogBlueprintUserMessages: [Item1_Key_Yellow] *TurnOn LightHello
+[2017.03.05-02.41.03:484][897]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.672
+[2017.03.05-02.41.03:485][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.41.03:487][897]LogBlueprintUserMessages: [BP_FinalCase_457] *I'm NOT Grabbed
+[2017.03.05-02.41.27:878][ 75]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.41.28:715][150]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.41.29:620][231]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lock
+[2017.03.05-02.41.30:614][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Lets See if I'm a Lock?
+[2017.03.05-02.41.30:614][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] *Yes Im a lock
+[2017.03.05-02.41.30:614][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] *2 Items Found on me
+[2017.03.05-02.41.30:614][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.41.30:614][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] * *Lock Locked? 0
+[2017.03.05-02.41.30:615][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.41.30:615][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] Got a Maybe
+[2017.03.05-02.41.30:615][320]LogBlueprintUserMessages: [BP_Interact_Object_222] * *The Safe Door Locked? 0
+[2017.03.05-02.41.30:615][320]LogBlueprintUserMessages: [BP_Interact_Object2_470] *I Unlock You
+[2017.03.05-02.41.31:408][391]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.41.32:402][480]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.41.32:402][480]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.41.36:501][847]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.36:501][847]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.36:993][891]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.36:993][891]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.37:596][945]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.37:596][945]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.38:243][  3]LogBlueprintUserMessages: [BP_Interact_Object_222] *The Safe Door
+[2017.03.05-02.41.39:149][ 84]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.39:150][ 84]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.39:238][ 92]LogBlueprintUserMessages: [BP_Interact_Object_222] *Lets See if I'm a Lock?
+[2017.03.05-02.41.39:238][ 92]LogBlueprintUserMessages: [BP_Interact_Object_222] *Im a Not the LOCK
+[2017.03.05-02.41.40:124][171]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.40:125][171]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.40:634][217]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.40:634][217]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.41:193][267]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.41:193][267]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.41:651][308]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.41:651][308]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.42:600][393]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.42:601][393]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.43:248][451]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.43:248][451]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.43:651][487]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.43:651][487]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.44:054][523]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.44:054][523]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.44:432][557]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.44:432][557]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Desk_Right_handed_2
+[2017.03.05-02.41.44:779][588]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.44:779][588]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.45:661][667]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.45:661][667]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.46:008][698]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.46:008][698]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.46:287][723]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.46:287][723]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.46:544][746]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller Not the Object I hoped
+[2017.03.05-02.41.46:544][746]LogBlueprintUserMessages: [BP_MotionController_C_1] * Motion Controller None
+[2017.03.05-02.41.56:509][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.41.56:688][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.03.05-02.42.08:183][502]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-02.42.08:395][503]Cmd: QUIT_EDITOR
+[2017.03.05-02.42.09:199][503]LogExit: Preparing to exit.
+[2017.03.05-02.42.09:958][503]LogDirectoryWatcher: A directory notification for 'C:/Users/Derek/Documents/Clean/Content/' was aborted.
+[2017.03.05-02.42.10:020][503]LogExit: Editor shut down
+[2017.03.05-02.42.10:020][503]LogExit: Transaction tracking system shut down
+[2017.03.05-02.42.10:148][503]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.05-02.42.10:148][503]LogExit: Object subsystem successfully closed.
+[2017.03.05-02.42.10:165][503]LogD3D11RHI: Shutdown
+[2017.03.05-02.42.10:165][503]LogD3D11RHI: CleanupD3DDevice
+[2017.03.05-02.42.10:167][503]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (502)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.05-02.42.10:190][503]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.05-02.42.10:190][503]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.05-02.42.10:192][503]LogDirectoryWatcher: A directory notification for 'C:/Users/Derek/Documents/Clean/Content/Collections/' was aborted.
+[2017.03.05-02.42.10:192][503]LogDirectoryWatcher: A directory notification for 'C:/Users/Derek/Documents/Clean/Content/Developers/Derek/Collections/' was aborted.
+[2017.03.05-02.42.10:192][503]LogDirectoryWatcher: A directory notification for 'C:/Users/Derek/Documents/Clean/Saved/Collections/' was aborted.
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.05-02.42.10:192][503]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.05-02.42.10:193][503]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.05-02.42.10:856][503]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.05-02.42.10:857][503]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.05-02.42.10:898][503]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.05-02.42.10:899][503]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.05-02.42.10:899][503]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.05-02.42.10:899][503]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.05-02.42.10:908][503]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.05-02.42.10:908][503]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.05-02.42.10:910][503]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.05-02.42.10:911][503]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.05-02.42.11:012][503]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.05-02.42.11:013][503]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.05-02.42.11:014][503]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.05-02.42.11:014][503]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.05-02.42.11:015][503]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.05-02.42.11:015][503]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.05-02.42.11:015][503]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.05-02.42.11:015][503]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.05-02.42.11:116][503]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.05-02.42.11:216][503]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.05-02.42.11:217][503]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.05-02.42.11:220][503]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.05-02.42.11:315][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.05-02.42.11:315][503]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Derek/Documents/Clean/Content/' was aborted.
+[2017.03.05-02.42.11:315][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.05-02.42.11:315][503]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.05-02.42.11:316][503]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.05-02.42.11:332][503]LogDerivedDataCache: Shutdown
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.05-02.42.11:332][503]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.05-02.42.11:333][503]LogHMD: Oculus shutdown.
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.05-02.42.11:333][503]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.05-02.42.11:333][503]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.05-02.42.11:333][503]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.05-02.42.11:333][503]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD0E4388-47DA-EBB8-B1F3-73AC68CBCF58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=b2c2bf7345d4e89268206bbc3bf8018d%7Caec8c22201e04144bd84f6ed253bdb57%7Cee8bb13c-d7f9-40a1-8bf4-4d5609678b76&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.05-02.42.11:362][503]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.05-02.42.11:363][503]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.05-02.42.11:363][503]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.05-02.42.11:363][503]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.05-02.42.11:363][503]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.05-02.42.11:363][503]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.05-02.42.11:368][503]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.05-02.42.11:370][503]LogExit: Exiting.
+[2017.03.05-02.42.11:372][503]Log file closed, 03/05/17 02:42:11
